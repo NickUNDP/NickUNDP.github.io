@@ -226,12 +226,29 @@
       height: 109.31px;
       left: 378px;
       top: 190px;
+    }  
+      .responsive-container 
+    {
+        position: relative;
+        padding-bottom: 56.25%; /* 16/9 ratio */
+        padding-top: 30px; /* IE6 workaround*/
+        height: 0;
+        overflow: hidden;
+        }
+    .responsive-container iframe,   
+    .responsive-container object,  
+    .responsive-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
-    </style>
-  
+  </style>
 </head>
 
 <body>
+  <div class="responsive-container">
   <gwd-doubleclick id="gwd-ad" polite-load="">
     <gwd-metric-configuration></gwd-metric-configuration>
     <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck">
@@ -257,6 +274,8 @@
  <!--         <img is="gwd-image" source="/SO1desc.png" alt="Reduce poverty of persons with disabilities, through the promotion of increased work and appropriate employment for persons with disabilities, to ensure their improvided livelihood and enhance independence" id="SO1desc" class="gwd-img-j4sb">  -->
         </div>
       </div>
+    </div>
+    
     </div>
   </gwd-doubleclick>
    <script type="text/javascript" id="gwd-init-code">
