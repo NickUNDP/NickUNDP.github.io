@@ -227,32 +227,14 @@
       left: 378px;
       top: 190px;
     }  
-      .responsive-container 
-    {
-        position: relative;
-        padding-bottom: 56.25%; /* 16/9 ratio */
-        padding-top: 30px; /* IE6 workaround*/
-        height: 0;
-        overflow: hidden;
-        }
-    .responsive-container iframe,   
-    .responsive-container object,  
-    .responsive-container embed {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
   </style>
 </head>
 
 <body>
-  <div class="responsive-container">
-    <gwd-doubleclick id="gwd-ad" polite-load="">
-      <gwd-metric-configuration></gwd-metric-configuration>
-      <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck">
-        <div is="gwd-page" id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox gwd-div-17pj" data-gwd-width="100%" data-gwd-height="100%">
+  <gwd-doubleclick id="gwd-ad" polite-load="">
+    <gwd-metric-configuration></gwd-metric-configuration>
+     <div is="gwd-pagedeck" class="gwd-page-container" id="pagedeck">
+      <div is="gwd-page" id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox gwd-div-17pj" data-gwd-width="100%" data-gwd-height="100%">
           <div class="gwd-page-content gwd-page-size gwd-div-1tbj">
             <img is="gwd-image" source="/NSDP.png" alt="National Disabity Strategic Plan 2014-2018" id="NDSP" class="gwd-img-xk4s">
             <img is="gwd-image" source="/1.png" alt="SO1" id="gwd-image_2" class="gwd-img-r66k">
@@ -313,7 +295,6 @@
           handleAdInitialized, false);
       })();
     </script>
-  </div>
-</body>
+  </body>
 
 </html>
