@@ -1,0 +1,218 @@
+   <style type="text/css" id="gwd-lightbox-style">
+    .gwd-lightbox {
+      overflow: hidden;
+    }
+  </style>
+  <style type="text/css" id="gwd-text-style">
+    p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .gwd-page-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-page-content {
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+      position: absolute;
+      background-color: transparent;
+    }
+    .gwd-page-wrapper {
+      position: absolute;
+      transform: translateZ(0px);
+      background-color: rgb(255, 255, 255);
+    }
+    .gwd-page-size {
+      width: 2800px;
+      height: 2000px;
+    }
+    .gwd-img-xk4s {
+      position: absolute;
+      width: 595px;
+      height: 78px;
+      left: 59px;
+      top: 41px;
+    }
+    .gwd-img-r66k {
+      position: absolute;
+      width: 34pxpx;
+      height: 34px;
+      left: 42px;
+      top: 113px;
+    }
+    .gwd-img-15jd {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      left: 109px;
+      top: 113px;
+	  opacity:0.2;
+    }
+    .gwd-img-3knt {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      left: 173px;
+      top: 113px;
+    }
+    .gwd-img-1nrg {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      left: 243px;
+      top: 113px;
+    }
+    .gwd-img-vepu {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      left: 308px;
+      top: 113px;
+    }
+    .gwd-img-1i25 {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      left: 372px;
+      top: 113px;
+    }
+    .gwd-img-cfm2 {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      left: 442px;
+      top: 113px;
+    }
+    .gwd-img-pz5b {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      left: 508px;
+      top: 113px;
+    }
+    .gwd-img-mkvs {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      left: 573px;
+      top: 113px;
+    }
+    .gwd-img-a2eh {
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      left: 636px;
+      top: 113px;
+    }
+    .gwd-img-130c {
+      position: absolute;
+      width: 613px;
+      height: 210px;
+      left: 52px;
+      top: 165px;
+    }
+    .gwd-img-1e9k {
+      position: absolute;
+      left: 30px;
+      top: 224px;
+      width: 295px;
+      height: 98.66px;
+    }
+    .gwd-img-be6g {
+      position: absolute;
+      width: 295px;
+      height: 100px;
+      left: 392px;
+      top: 323px;
+    }
+    .gwd-img-1twa {
+      position: absolute;
+      width: 295px;
+      height: 100px;
+      left: 30px;
+      top: 323px;
+    }
+    .gwd-img-ewoa {
+      position: absolute;
+      width: 295px;
+      height: 100px;
+      left: 392px;
+      top: 224px;
+    }
+    .gwd-img-26nt {
+      position: absolute;
+      width: 641px;
+      height: 57px;
+      left: 39px;
+      top: 438px;
+    }
+    .gwd-img-j4sb {
+      position: absolute;
+      width: 472px;
+      height: 66px;
+      left: 135px;
+      top: 432px;
+    }
+    .gwd-div-1tbj {
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-div-17pj {
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-img-sdqe {
+      position: absolute;
+      width: 295px;
+      height: 107.37px;
+      left: 30px;
+      top: 319px;
+    }
+    .gwd-img-9lir {
+      position: absolute;
+      left: 30px;
+      width: 295px;
+      height: 109.19px;
+      top: 221px;
+    }
+    .gwd-img-8d9b {
+      position: absolute;
+      height: 100px;
+      width: 296.69px;
+      left: 392px;
+      top: 323px;
+    }
+    .gwd-img-a8o6 {
+      position: absolute;
+      width: 295px;
+      height: 109.31px;
+      left: 392px;
+      top: 220px;
+    }
+	.big_img {
+       position: absolute;
+      width: 600px;
+      height: 200.66px;
+      left: 58px;
+      top: 229px;
+      transform-style: preserve-3d;
+      transform: translate3d(2px, 1px, 1px)
+    }
+	</style>
