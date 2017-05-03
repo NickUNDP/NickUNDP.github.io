@@ -11,7 +11,9 @@
   <link href="gwdpagedeck_style.css" rel="stylesheet" data-version="9" data-exports-type="gwd-pagedeck">
   <link href="gwddoubleclick_style.css" rel="stylesheet" data-version="14" data-exports-type="gwd-doubleclick">
   <link href="gwdimage_style.css" rel="stylesheet" data-version="9" data-exports-type="gwd-image">
+	<link rel="stylesheet" type="text/css" href="layout.css">
 
+  <script type="text/javascript" src="interactive.js"></script>
   <script data-source="googbase_min.js" data-version="3" data-exports-type="googbase" src="googbase_min.js"></script>
   <script data-source="gwd_webcomponents_min.js" data-version="5" data-exports-type="gwd_webcomponents" src="gwd_webcomponents_min.js"></script>
   <script data-source="gwdpage_min.js" data-version="8" data-exports-type="gwd-page" src="gwdpage_min.js"></script>
@@ -20,221 +22,15 @@
   <script data-source="gwddoubleclick_min.js" data-version="14" data-exports-type="gwd-doubleclick" src="gwddoubleclick_min.js"></script>
   <script data-source="gwdimage_min.js" data-version="9" data-exports-type="gwd-image" src="gwdimage_min.js"></script>
 
-   <style type="text/css" id="gwd-lightbox-style">
-    .gwd-lightbox {
-      overflow: hidden;
-    }
-  </style>
-  <style type="text/css" id="gwd-text-style">
-    p {
-      margin: 0px;
-    }
-    h1 {
-      margin: 0px;
-    }
-    h2 {
-      margin: 0px;
-    }
-    h3 {
-      margin: 0px;
-    }
-  </style>
-  <style type="text/css">
-    html, body {
-      width: 100%;
-      height: 100%;
-      margin: 0px;
-    }
-    .gwd-page-container {
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
-    .gwd-page-content {
-      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-      transform-style: preserve-3d;
-      position: absolute;
-      background-color: transparent;
-    }
-    .gwd-page-wrapper {
-      position: absolute;
-      transform: translateZ(0px);
-      background-color: rgb(255, 255, 255);
-    }
-    .gwd-page-size {
-    }
-   .gwd-img-xk4s {
-      position: absolute;
-      width: 595px;
-      height: 78px;
-      left: 45px;
-      top: 11px;
-    }
-    .gwd-img-r66k {
-      position: absolute;
-      width: 34px;
-      height: 34px;
-      left: 26px;
-      top: 83px;
-      opacity: 0.2;
-    }
-    .gwd-img-15jd {
-      position: absolute;
-      width: 34px;
-      height: 34px;
-      left: 95px;
-      top: 83px;
-      opacity: 0.2;
-    }
-    .gwd-img-3knt {
-      position: absolute;
-      width: 34px;
-      height: 34px;
-      left: 159px;
-      top: 83px;
-      opacity: 0.2;
-    }
-    .gwd-img-1nrg {
-      position: absolute;
-      width: 34px;
-      height: 34px;
-      left: 229px;
-      top: 83px;
-      opacity: 0.2;
-    }
-    .gwd-img-vepu {
-      position: absolute;
-      width: 34px;
-      height: 34px;
-      left: 294px;
-      top: 83px;
-      opacity: 0.2;
-    }
-    .gwd-img-1i25 {
+  <style>
+  .gwd-big-6 {
       position: absolute;
       width: 51px;
       height: 51px;
-      left: 352px;
+      left: 366px;
       top: 83px;
     }
-    .gwd-img-cfm2 {
-      position: absolute;
-      width: 34px;
-      height: 34px;
-      left: 428px;
-      top: 83px;
-      opacity: 0.2;
-    }
-    .gwd-img-pz5b {
-      position: absolute;
-      width: 34px;
-      height: 34px;
-      left: 494px;
-      top: 83px;
-      opacity: 0.2;
-    }
-    .gwd-img-mkvs {
-      position: absolute;
-      width: 34px;
-      height: 34px;
-      left: 559px;
-      top: 83px;
-      opacity: 0.2;
-    }
-    .gwd-img-a2eh {
-      position: absolute;
-      width: 34px;
-      height: 34px;
-      left: 622px;
-      top: 83px;
-      opacity: 0.2;
-    }
-    .gwd-img-130c {
-      position: absolute;
-      width: 613px;
-      height: 210px;
-      left: 38px;
-      top: 135px;
-    }
-    .gwd-img-1e9k {
-      position: absolute;
-      width: 295px;
-      height: 98.66px;
-      left: 16px;
-      top: 194px;
-    }
-    .gwd-img-be6g {
-      position: absolute;
-      width: 295px;
-      height: 100px;
-      left: 378px;
-      top: 293px;
-    }
-    .gwd-img-1twa {
-      position: absolute;
-      width: 295px;
-      height: 100px;
-      left: 16px;
-      top: 293px;
-    }
-    .gwd-img-ewoa {
-      position: absolute;
-      width: 295px;
-      height: 100px;
-      left: 378px;
-      top: 194px;
-    }
-    .gwd-img-26nt {
-      position: absolute;
-      width: 641px;
-      height: 57px;
-      left: 25px;
-      top: 408px;
-    }
-    .gwd-img-j4sb {
-      position: absolute;
-      width: 472px;
-      height: 66px;
-      left: 121px;
-      top: 402px;
-    }
-    .gwd-div-1tbj {
-      width: 100%;
-      height: 100%;
-    }
-    .gwd-div-17pj {
-      width: 100%;
-      height: 100%;
-    }
-    .gwd-img-sdqe {
-      position: absolute;
-      width: 295px;
-      height: 107.37px;
-      left: 16px;
-      top: 289px;
-    }
-    .gwd-img-9lir {
-      position: absolute;
-      width: 295px;
-      height: 109.19px;
-      left: 16px;
-      top: 191px;
-    }
-    .gwd-img-8d9b {
-      position: absolute;
-      height: 100px;
-      width: 296.69px;
-      left: 378px;
-      top: 293px;
-    }
-    .gwd-img-a8o6 {
-      position: absolute;
-      width: 295px;
-      height: 109.31px;
-      left: 378px;
-      top: 190px;
-    }  
-  </style>
+	</style>
 </head>
 
 <body>
@@ -244,21 +40,21 @@
       <div is="gwd-page" id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox gwd-div-17pj" data-gwd-width="100%" data-gwd-height="100%">
         <div class="gwd-page-content gwd-page-size gwd-div-1tbj">
           <img is="gwd-image" source="/NSDP.png" alt="National Disabity Strategic Plan 2014-2018" id="NDSP" class="gwd-img-xk4s">
-          <img is="gwd-image" source="/1.png" alt="SO1" id="gwd-image_2" class="gwd-img-r66k">
-          <img is="gwd-image" source="/2.png" alt="SO2" id="gwd-image_3" class="gwd-img-15jd">
-          <img is="gwd-image" source="/3.png" alt="SO3" id="gwd-image_4" class="gwd-img-3knt">
-          <img is="gwd-image" source="/4.png" class="gwd-img-1nrg">
-          <img is="gwd-image" source="/5.png" alt="SO5" id="gwd-image_6" class="gwd-img-vepu">
-          <img is="gwd-image" source="/6.png" alt="SO6" id="gwd-image_7" class="gwd-img-1i25">
-          <img is="gwd-image" source="/7.png" id="gwd-image_8" class="gwd-img-cfm2">
-          <img is="gwd-image" source="/8.png" alt="SO8" id="gwd-image_9" class="gwd-img-pz5b">
-          <img is="gwd-image" source="/9.png" alt="SO9" id="gwd-image_10" class="gwd-img-mkvs">
-          <img is="gwd-image" source="/10.png" alt="SO10" id="gwd-image_11" class="gwd-img-a2eh">
+<a href="https://nickundp.github.io/employment_responsive.html"><img is="gwd-image" source="/1.png" alt="Strategic Objective 1:Employment" id="gwd-image_2" class="gwd-img-r66k"  onmouseover="highlight(this)" onmouseout="normal(this)"></a>
+          <a href="https://nickundp.github.io/health_responsive.htm"><img is="gwd-image" source="/2.png" alt="Strategic Objective 2: Health" id="gwd-image_3" class="gwd-img-15jd" onmouseover="highlight(this)" onmouseout="normal(this)"></a>
+        <a href="https://nickundp.github.io/justice_responsive.htm"><img is="gwd-image" source="/3.png" alt="Strategic Objective 3: Justice" id="gwd-image_4" class="gwd-img-3knt" onmouseover="highlight(this)" onmouseout="normal(this)"></a>
+          <a href="https://nickundp.github.io/freedom_responsive.htm"><img is="gwd-image" source="/4.png" alt="Strategic Objective 4: Freedom, security and disaster risk reduction" id="gwd-image_5" class="gwd-img-1nrg" onmouseover="highlight(this)" onmouseout="normal(this)"></a>
+          <a href="https://nickundp.github.io/education_responsive.htm"><img is="gwd-image" source="/5.png" alt="Strategic Objective 5: Education" id="gwd-image_6" class="gwd-img-vepu" onmouseover="highlight(this)" onmouseout="normal(this)"></a>
+		<img is="gwd-image" source="/6.png" alt="Strategic Objective 6: Freedom of expression" id="gwd-image_7" class="gwd-big_6">
+          <a href="https://nickundp.github.io/culture_responsive.htm"><img is="gwd-image" source="/7.png" alt="Strategic Objective 7: Culture, religion and sport" id="gwd-image_8" class="gwd-img-cfm2" onmouseover="highlight(this)" onmouseout="normal(this)"></a>
+          <a href="https://nickundp.github.io/accessibility_responsive.htm"><img is="gwd-image" source="/8.png" alt="Strategic Objective 8: Accessibility" id="gwd-image_9" class="gwd-img-pz5b" onmouseover="highlight(this)" onmouseout="normal(this)"></a>
+          <a href="https://nickundp.github.io/women_responsive.htm"><img is="gwd-image" source="/9.png" alt="Strategic Objective 9: Women and Children" id="gwd-image_10" class="gwd-img-mkvs" onmouseover="highlight(this)" onmouseout="normal(this)"></a>
+          <a href="https://nickundp.github.io/cooperation_responsive.htm"><img is="gwd-image" source="/10.png" alt="Strategic Objective 10: Cooperation" id="gwd-image_11" class="gwd-img-a2eh" onmouseover="highlight(this)" onmouseout="normal(this)"></a>
           <img is="gwd-image" source="/SO6.png" alt="What is the government plan to ensure freedom of expression for persons with disabliities?" id="SO6" class="gwd-img-130c">
-          <img is="gwd-image" source="/participation.png" alt="Participation: Promote persons with disabilities to vote and stand in elections and ensure freedom from intimidation" id="Participation" onclick="SwapImg(Encourage_SE,Encourage_SEBig)" class="gwd-img-1e9k">
-          <img is="gwd-image" source="/expression.png" alt="Expression: Allow persons to express their will and promote disabled persons organisations" id="Expression" class="gwd-img-1twa">
-          <img is="gwd-image" source="/voting.png" alt="Voting: Make facilities accessible, allow assistance to vote and sensure the right to a secret ballot" id="Voting" class="gwd-img-ewoa">
-          <img is="gwd-image" source="/Associatation.png" alt="Association: Promote forming of disabled persons organisations and ensure their trade union rights" id="Association" class="gwd-img-be6g">
+          <img is="gwd-image" source="/participation.png" alt="Participation: Promote persons with disabilities to vote and stand in elections and ensure freedom from intimidation" id="Participation" onclick="changeClass('Participation','gwd-img-1e9k','big_img')" class="gwd-img-1e9k">
+          <img is="gwd-image" source="/expression.png" alt="Expression: Allow persons to express their will and promote disabled persons organisations" id="Expression" onclick="changeClass('Expression','gwd-img-1twa','big_img')" class="gwd-img-1twa">
+          <img is="gwd-image" source="/voting.png" alt="Voting: Make facilities accessible, allow assistance to vote and sensure the right to a secret ballot" id="Voting" onclick="changeClass('Voting','gwd-img-ewoa','big_img')" class="gwd-img-ewoa">
+          <img is="gwd-image" source="/Associatation.png" alt="Association: Promote forming of disabled persons organisations and ensure their trade union rights" id="Association" onclick="changeClass('Associatation','gwd-img-be6g','big_img')" class="gwd-img-be6g">
           <img is="gwd-image" source="/logos.png" id="logos" class="gwd-img-26nt">
  <!--         <img is="gwd-image" source="https://docs.google.com/uc?id=0BxGyWzkaNWjjaEFMWHZmR2gzWEk" alt="Ensure persons with disabilities have equal access to quality education and vocational training services" id="SO5desc" class="gwd-img-j4sb"> -->
         </div>
