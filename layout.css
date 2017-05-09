@@ -157,6 +157,7 @@
       height: 100px;
       left: 378px;
       top: 293px;
+        opacity: 0.0;
     }
     .gwd-img-1twa {
       position: absolute;
@@ -164,8 +165,32 @@
       height: 100px;
       left: 16px;
       top: 293px;
+        opacity: 0.0;
     }
     .gwd-img-ewoa {
+      position: absolute;
+      width: 295px;
+      height: 100px;
+      left: 378px;
+      top: 194px;
+        opacity: 0.0;
+    }
+
+.gwd-img-be6g2 {
+      position: absolute;
+      width: 295px;
+      height: 100px;
+      left: 378px;
+      top: 293px;
+    }
+    .gwd-img-1twa2 {
+      position: absolute;
+      width: 295px;
+      height: 100px;
+      left: 16px;
+      top: 293px;
+    }
+    .gwd-img-ewoa2 {
       position: absolute;
       width: 295px;
       height: 100px;
